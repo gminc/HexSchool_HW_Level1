@@ -1,0 +1,143 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.all_page {
+	width: 1920px;
+	margin-left: auto;
+    margin-right: auto;
+	opacity: 1;
+}
+.block_01, h3 {
+	font: normal normal normal 32px/43px Noto Sans;
+}
+h1, .block_02, .block_03 {
+	font: normal normal normal 80px/94px Roboto;
+}
+.h2_02, .h3_02 {
+	font: normal normal medium 24px/28px Roboto;
+}
+.list, .block_03 p{
+	font: normal normal 300 24px/36px Roboto;
+}
+h2, h2 {
+	border-bottom: 2px solid #000000;
+}
+.block_02, .block_03 {
+	background: #415165;
+	color: #FFFFFF;
+}
+.block_01 {
+	padding-left: 360px;
+	padding-right: 360px;
+}
+h1 {
+	line-height: 94px;
+	margin-bottom: 48px;
+}
+h2 {
+	line-height: 43px;
+	padding-bottom: 8px;
+}
+.h2_02 {
+	line-height: 28px;
+	padding-left: 16px;
+	color: #A00404;
+}
+.style_h2 {
+	padding-top: 36px;
+    padding-bottom: 36px;
+}
+.style_h2 p {
+	margin-top: 24px;
+}
+.content {
+	display: block;
+	width: 642px;
+	font-size: 20px;
+	line-height: 30px;
+}
+.block_02 {
+	margin-top: 48px;
+	margin-bottom: 36px;
+	padding: 24px;	
+}
+.logo {
+	height: 90px;
+	width: 90px;
+}
+h3 {
+	text-align: center;
+	width: 996px;
+	border-bottom: 1px solid #FFFFFF;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 24px;
+}
+.h3_02 {
+	line-height: 28px;
+	padding-left: 16px;
+}
+.list {
+	border-left: 1px solid #FFFFFF;
+	padding-left: 24px;
+	margin-left: 860px;
+	margin-top: 16px;	
+}
+.block_03 {
+	text-align: center;
+	margin-top: 36px;
+}
+.block_03 p {
+	padding-top: 16px;
+	padding-bottom: 16px;
+}
+.block_03 img {
+	padding-right: 12px;
+	padding-left: 12px;
+	padding-bottom: 36px;
+}
